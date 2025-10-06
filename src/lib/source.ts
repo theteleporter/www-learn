@@ -7,7 +7,6 @@ export const source = loader({
   baseUrl: '/docs',
   source: docs.toFumadocsSource(),
   plugins: [lucideIconsPlugin()],
-  transformPage(page) {
 });
 
 export function getPageImage(page: InferPageType<typeof source>) {

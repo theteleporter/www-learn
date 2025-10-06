@@ -1,10 +1,4 @@
-import { Major_Mono_Display } from 'next/font/google'
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared'
-
-const majorMono = Major_Mono_Display({
-  subsets: ['latin'],
-  weight: ['400'],
-})
 
 /**
  * Shared layout configurations
@@ -18,10 +12,7 @@ export function baseOptions(): BaseLayoutProps {
     nav: {
       title: (
         <>
-          <span className={majorMono.className}>
-             WWW-LEARN
-          </span>
-        </>
+          WWW-LEARN
         </>
       ),
     },

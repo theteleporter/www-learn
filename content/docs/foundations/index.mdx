@@ -7,8 +7,8 @@ export const InlineTOC = ({ title, items }) => (
   <div className="bg-blue-50 border-l-4 border-blue-400 p-4 my-6">
     <h3 className="font-semibold text-blue-900 mb-3">{title}</h3>
     <ul className="space-y-1">
-      {items.map((item, index) => (
-        <li key={index}>
+      {items.map((item) => (
+        <li key={item.url}>
           <a href={item.url} className="text-blue-700 hover:text-blue-900">
             {item.title}
           </a>
@@ -29,11 +29,14 @@ export const InlineTOC = ({ title, items }) => (
   ]} 
 />
 
-## Setup {#setup}
-...
+<h2 id="setup">Setup</h2>
 
-## Config {#config}
-...
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel urna sit amet metus viverra convallis. 
 
-## Advanced {#advanced}
-...
+<h2 id="config">Config</h2>
+
+Proin dictum, felis vel vulputate porttitor, orci lorem porta sapien, sed porta nunc arcu sed ex.
+
+<h2 id="advanced">Advanced</h2>
+
+Mauris pharetra diam sed justo rhoncus, nec ultrices neque congue. Curabitur quis sapien non nunc consequat suscipit.

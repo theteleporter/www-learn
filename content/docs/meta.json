@@ -4,15 +4,7 @@
     "where-do-i-start",
     "start-here",
     "learning-paths",
-    {
-      "title": "Foundations",
-      "root": "foundations",
-      "pages": [
-        "index",
-        "logic",
-        "math",
-        "physics"
-      ]
-    }
+    "---Foundations---",
+    "...foundations"
   ]
 }

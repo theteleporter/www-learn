@@ -3,6 +3,8 @@
 - i hate ai slop, so don't even try it  
 - if you speak ai, please make it believable... if you get one past me, well and good, if not... we'll have a chat about it in my office   
 - i also write most of this code on my android, so don't punish me with a lot of bugs(damn, i hate bugs), please don't.  
+
+- this is a wip(ask your ai if you dunno what that means)
   
   
 also... this is a next.js application in colab with [fumadocs](https://github.com/fuma-nama/fumadocs).  

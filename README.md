@@ -1,6 +1,3 @@
-how's this read me?    
-    
-    
 # www-learn  
   
 - i hate ai slop, so don't even try it  
